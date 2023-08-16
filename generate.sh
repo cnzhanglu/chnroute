@@ -15,6 +15,7 @@ DNS_SERVER_VAR="dnsserver"
 GFWLIST_RSC="gfwlist.rsc"
 CN_RSC="CN.rsc"
 GFWLIST_V7_RSC="gfwlist_v7.rsc"
+GFWLIST_ONLYFORWORD_V7_RSC="gfwlist_onlyforword_routeos_v7.rsc"
 GIT_STATUS_CMD="git status -s"
 GFWLIST_CONF="03-gfwlist.conf"
 CN_URL="http://www.iwik.org/ipcountry/mikrotik/CN"
@@ -62,6 +63,19 @@ create_gfwlist_v7_rsc() {
     sed -i -e '$a\/ip dns cache flush' "$GFWLIST_V7_RSC"
 }
 
+create_gfwlist_onlyforword_v7_rsc() {
+    cp "$GFWLIST" "$GFWLIST_ONLYFORWORD_V7_RSC"
+    
+    sed -i "
+        s/$/ } on-error={}/g;
+        s/^/:do { add forward-to=${DNS_SERVER} type=FWD match-subdomain=yes name=/g;
+        1s/^/\/ip dns static\n/;
+        1s/^/\/ip dns static remove [\/ip dns static find forward-to=${DNS_SERVER} ]\n/;
+        1s/^/:global ${DNS_SERVER_VAR}\n/
+        " "$GFWLIST_ONLYFORWORD_V7_RSC"
+    sed -i -e '$a\/ip dns cache flush' "$GFWLIST_ONLYFORWORD_V7_RSC"
+}
+
 check_git_status() {
     # Check if git has any changes
     if [[ $(${GIT_STATUS_CMD} | wc -l) -eq 1 ]]; then
@@ -83,5 +97,6 @@ sort_files
 run_gfwlist2dnsmasq
 create_gfwlist_rsc
 create_gfwlist_v7_rsc
+create_gfwlist_onlyforword_v7_rsc
 check_git_status
 download_cn_rsc
