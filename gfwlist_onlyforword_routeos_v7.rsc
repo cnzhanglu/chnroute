@@ -2093,6 +2093,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=goagent.codeplex.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=goagentplus.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=gobet.cc } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=godaddy.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=godfootsteps.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=godns.work } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=godoc.org } on-error={}
