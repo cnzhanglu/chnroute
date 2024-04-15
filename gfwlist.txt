@@ -639,7 +639,6 @@ blogger.com
 blogimg.jp
 bloglines.com
 bloglovin.com
-blogs.icerocket.com
 blogs.libraryinformationtechnology.com
 blogs.tampabay.com
 blogs.yahoo.co.jp
@@ -2749,6 +2748,7 @@ ibros.org
 ibvpn.com
 icams.com
 ice.audionow.com
+icedrive.net
 icij.org
 icl-fi.org
 icoco.com
@@ -4391,6 +4391,7 @@ ronjoneswriter.com
 roodo.com
 rosechina.net
 rotten.com
+rou.video
 rsdlmonitor.com
 rsf-chinese.org
 rsf.org
