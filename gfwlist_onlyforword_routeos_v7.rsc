@@ -3192,6 +3192,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=lianyue.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=liaowangxizang.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=liberal.org.hk } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=libertysculpturepark.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=libertytimes.com.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=library.usc.cuhk.edu.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=libredd.it } on-error={}
@@ -5868,6 +5869,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wrchina.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wretch.cc } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=writer.zoho.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=writesonic.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wsj.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wsj.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wsjhk.com } on-error={}
