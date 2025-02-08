@@ -266,6 +266,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ameblo.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=americangreencard.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=americanunfinished.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=americorps.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=amiblockedornot.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=amigobbs.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=amitabhafoundation.us } on-error={}
@@ -903,6 +904,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=cccat.cc } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=cccat.co } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ccdtr.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ccfd.org.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=cchere.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ccim.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=cclife.ca } on-error={}
@@ -2156,7 +2158,6 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=goagent.biz } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=goagent.codeplex.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=goagentplus.com } on-error={}
-:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=gobet.cc } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=godaddy.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=godfootsteps.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=godns.work } on-error={}
@@ -2441,6 +2442,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=graphis.ne.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=graphql.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=gravatar.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=greasyfork.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=great-firewall.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=great-roc.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=greatfire.org } on-error={}
@@ -2912,6 +2914,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=iownyour.biz } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=iownyour.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ipalter.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ipdefenseforum.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ipfire.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ipfs.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=iphone4hongkong.com } on-error={}
@@ -3827,6 +3830,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nobel.se } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nobelprize.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nobodycanstop.us } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nodeseek.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nofile.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nokogiri.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nokola.com } on-error={}
@@ -3850,7 +3854,6 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=npa.gov.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=npm.gov.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=npnt.me } on-error={}
-:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nps.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=npsboost.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nradio.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=nrk.no } on-error={}
@@ -4039,6 +4042,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=pachosting.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=pacificpoker.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=packetix.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=pacom.mil } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=pacopacomama.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=padmanet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=page.bid.yahoo.com } on-error={}
@@ -5596,7 +5600,6 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=users.skynet.be } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=usfk.mil } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=ushuarencity.echainhost.com } on-error={}
-:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=usinfo.state.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=usma.edu } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=usmc.mil } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=usmgtcg.ning.com } on-error={}
@@ -5996,7 +5999,6 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=wwitv.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.abclite.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.ajsands.com } on-error={}
-:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.americorps.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.antd.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.aolnews.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=www.businessinsider.com.au } on-error={}
