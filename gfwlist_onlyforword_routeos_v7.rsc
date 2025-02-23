@@ -1172,6 +1172,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=code1984.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=codeshare.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=codeskulptor.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cofacts.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coin2co.in } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coinbase.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coinbene.com } on-error={}
@@ -2462,6 +2463,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greenvpn.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greenvpn.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=grindr.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=grok.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=grotty-monday.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ground.news } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=groups.google.cn } on-error={}
