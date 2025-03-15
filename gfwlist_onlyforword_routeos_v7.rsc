@@ -1837,7 +1837,6 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=farwestchina.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fast.wistia.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fastestvpn.com } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fastgpt.run } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fastpic.ru } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fastssh.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=faststone.org } on-error={}
