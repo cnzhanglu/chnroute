@@ -4369,7 +4369,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=powerphoto.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ppy.sh } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=prayforchina.net } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=premeforwindows7.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=prcleader.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=premproxy.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=presentation.new } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=presentationzen.com } on-error={}
