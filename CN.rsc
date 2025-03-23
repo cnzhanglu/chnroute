@@ -6095,10 +6095,7 @@
 :do { add address=202.46.44.0/22 list=CN } on-error={}
 :do { add address=202.46.48.0/20 list=CN } on-error={}
 :do { add address=202.46.128.0/24 list=CN } on-error={}
-:do { add address=202.46.224.0/23 list=CN } on-error={}
-:do { add address=202.46.226.0/24 list=CN } on-error={}
-:do { add address=202.46.228.0/22 list=CN } on-error={}
-:do { add address=202.46.232.0/21 list=CN } on-error={}
+:do { add address=202.46.224.0/20 list=CN } on-error={}
 :do { add address=202.47.82.0/23 list=CN } on-error={}
 :do { add address=202.47.96.0/20 list=CN } on-error={}
 :do { add address=202.47.126.0/24 list=CN } on-error={}
