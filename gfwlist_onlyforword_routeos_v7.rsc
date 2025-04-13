@@ -428,6 +428,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=atnext.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=auctions.yahoo.co.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=audacy.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=audiomack.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=auntology.fandom.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=auth.openai.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=authorizeddns.net } on-error={}
@@ -1168,7 +1169,6 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cloud.dify.ai } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cloud.mail.ru } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cloudflare-ipfs.com } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cloudfront.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cloudfunctions.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=club1069.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=clubhouseapi.com } on-error={}
@@ -4639,6 +4639,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-southeast-1.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-southeast-2.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.eu-central-1.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s8forum.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sa.hao123.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sacks.com } on-error={}
