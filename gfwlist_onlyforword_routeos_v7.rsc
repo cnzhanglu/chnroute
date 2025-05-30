@@ -4646,9 +4646,15 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s1heng.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s1s1s1.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-*.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-northeast-1.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-northeast-2.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-southeast-1.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-southeast-2.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-eu-central-1.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.ap-northeast-2.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.eu-central-1.amazonaws.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3.us-east-1.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s8forum.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sa.hao123.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sacks.com } on-error={}
