@@ -630,6 +630,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bl-doujinsouko.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blacked.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blacklogic.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blackmagicdesign.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blackvpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blewpass.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=blinkx.com } on-error={}
