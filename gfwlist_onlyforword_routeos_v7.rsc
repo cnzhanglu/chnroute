@@ -962,6 +962,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdjp.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn-images.mailchimp.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn-telegram.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn.arstechnica.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn.assets.lfpcontent.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn.helixstudios.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cdn.jwplayer.com } on-error={}
@@ -1122,6 +1123,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=churchinhongkong.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chushigangdrug.ch } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ci-en.jp } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cici.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ciciai.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cienen.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cineastentreff.de } on-error={}
