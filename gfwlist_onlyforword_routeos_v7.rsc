@@ -3370,6 +3370,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=line.naver.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=linear-abematv.akamaized.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=linglingfa.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=lingualeo.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=lingvodics.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=link-o-rama.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=linkedin.com } on-error={}
