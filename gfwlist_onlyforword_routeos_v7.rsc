@@ -2404,6 +2404,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=himalayanglacier.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=himemix.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=hindustantimes.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=hinet.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=hitbtc.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=hitomi.la } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=hiveon.net } on-error={}
