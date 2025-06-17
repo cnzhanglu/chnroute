@@ -3695,6 +3695,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=onmypc.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=onthehunt.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ontrac.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=oojj.de } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=open.com.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=open.firstory.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=openai.com } on-error={}
