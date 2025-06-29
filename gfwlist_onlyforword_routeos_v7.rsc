@@ -2646,6 +2646,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=imdb.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=img.dlsite.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=img.ly } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=img.picgo.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=imgasd.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=imgchili.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=imgmega.com } on-error={}
