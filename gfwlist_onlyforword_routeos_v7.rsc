@@ -1353,6 +1353,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dongtaiwang.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dongyangjing.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dontfilter.us } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=doom9.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=doosho.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=doourbest.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dorjeshugden.com } on-error={}
