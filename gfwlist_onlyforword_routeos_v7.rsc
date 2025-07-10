@@ -1436,6 +1436,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=e-info.org.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=e-zone.com.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=e123.hk } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=e621.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=earlytibet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=earthcam.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=earthvpn.com } on-error={}
