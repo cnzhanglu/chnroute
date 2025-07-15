@@ -5624,6 +5624,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.thechinastory.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.wan-press.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.websnapr.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.xicons.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.zensur.freerk.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www1.american.edu } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www1.biz } on-error={}
