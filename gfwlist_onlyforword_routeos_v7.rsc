@@ -5168,6 +5168,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udn.com.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udnbkk.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udomain.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uforadio.com.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ufreevpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ugo.com } on-error={}
