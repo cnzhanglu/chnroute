@@ -1137,6 +1137,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cotweet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=counter.social } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coursehero.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=covenantswatch.org.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coze.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cpj.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cpu-monkey.com } on-error={}
