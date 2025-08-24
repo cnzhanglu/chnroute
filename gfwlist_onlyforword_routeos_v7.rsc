@@ -1862,6 +1862,8 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ftx.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fucd.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fuchsia.dev } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fuckccp.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fuckccp.xyz } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fuckgfw.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fulione.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fullerconsideration.com } on-error={}
