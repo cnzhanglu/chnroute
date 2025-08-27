@@ -1689,6 +1689,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fdc89.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feedburner.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feeder.co } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feedly.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feeds.fileforum.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feedx.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=feelssh.com } on-error={}
@@ -3324,6 +3325,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mog.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mohu.club } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mohu.rocks } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=moj.gov.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mojim.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mol.gov.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=molihua.org } on-error={}
