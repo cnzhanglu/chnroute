@@ -1377,6 +1377,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=doujincafe.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=download.aircrack-ng.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=download.cnet.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dpdns.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dphk.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dpool.top } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dpp.org.tw } on-error={}
