@@ -5180,7 +5180,6 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uberproxy.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uc-japan.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uchicago.edu } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uderzo.it } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udn.com.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=udnbkk.com } on-error={}
