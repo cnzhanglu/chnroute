@@ -5556,6 +5556,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikimapia.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikimedia.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikinews.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikipedia.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikipedia.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikisource.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikiversity.org } on-error={}
