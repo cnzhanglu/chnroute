@@ -4716,8 +4716,10 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tangren.us } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tanks.gg } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=taoism.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tap.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tapanwap.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tapatalk.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=taptap.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tardigrade.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tarr.uspto.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=taup.net } on-error={}
