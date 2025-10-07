@@ -5338,6 +5338,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vilanet.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vilavpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vimeo.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vimeocdn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vimperator.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vincnd.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=vine.co } on-error={}
