@@ -4496,6 +4496,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=solarsystem.nasa.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=solidaritetibet.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=solidfiles.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=solscan.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=solv.finance } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=somee.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=songjianjun.com } on-error={}
