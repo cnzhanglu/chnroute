@@ -1279,9 +1279,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=definebabe.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=deja.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=delcamp.net } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=delicious.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=demo.unlock-music.dev } on-error={}
-:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=democrats.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=demosisto.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=deno.dev } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=depositphotos.com } on-error={}
