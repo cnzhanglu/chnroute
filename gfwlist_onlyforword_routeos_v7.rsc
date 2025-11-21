@@ -2318,6 +2318,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greasyfork.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatfire.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatfire.us7.list-manage.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatfirevpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatfirewall.biz } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatfirewallofchina.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=greatroc.org } on-error={}
@@ -5596,6 +5597,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikipedia.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikipedia.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikisource.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikiunblocked.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikiversity.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikivoyage.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wikiwand.com } on-error={}
