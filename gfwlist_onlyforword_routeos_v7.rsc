@@ -3482,6 +3482,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nalandawest.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=namgyal.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=namgyalmonastery.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=namu.wiki } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nanopool.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nanyang.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nanyangpost.com } on-error={}
@@ -3908,6 +3909,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picacomiccn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picasaweb.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picidae.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picsart.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picturedip.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picturesocial.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=picuki.com } on-error={}
