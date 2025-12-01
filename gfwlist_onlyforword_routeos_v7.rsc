@@ -5905,6 +5905,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zalmos.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zamimg.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zaobao.com.sg } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zaochenbao.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zapto.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zattoo.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zb.com } on-error={}
