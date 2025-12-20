@@ -3849,6 +3849,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=parler.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=parse.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=parsevideo.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=partnerstack.xyz } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=partycasino.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=partypoker.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=passion.com } on-error={}
