@@ -4619,6 +4619,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=startuplivingchina.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=stat.gov.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=static-economist.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=static.pocketcasts.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=static.shemalez.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=static01.nyt.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=staticflickr.com } on-error={}
