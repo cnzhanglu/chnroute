@@ -1265,6 +1265,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dawangidc.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=daxa.cn } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=daylife.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dazn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=db.tt } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dbgjd.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dcard.tw } on-error={}
@@ -3769,6 +3770,8 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=onthehunt.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ontrac.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=oojj.de } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ooni.io } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ooni.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=open.com.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=open.firstory.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=openai.com } on-error={}
@@ -5761,6 +5764,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xbookcn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xbtce.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xcafe.in } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xcancel.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xcity.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xcritic.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xerotica.com } on-error={}
