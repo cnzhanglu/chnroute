@@ -1024,6 +1024,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chromecast\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chromeexperiments\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chromestatus\\.com\$" } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chromium\\.org \$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chuang-yen\\.org\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chubold\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chubun\\.com\$" } on-error={}
@@ -2783,7 +2784,6 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*ismprofessional\\.net\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*isohunt\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*israbox\\.com\$" } on-error={}
-:do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*issues\\.chromium\\.org \$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*issuu\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*istars\\.co\\.nz\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*istockphoto\\.com\$" } on-error={}
