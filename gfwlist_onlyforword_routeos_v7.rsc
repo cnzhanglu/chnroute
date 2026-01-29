@@ -433,6 +433,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=babylonbee.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=babynet.com.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=backchina.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=backend-v2.crixet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=backpackers.com.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=backtotiananmen.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bad.news } on-error={}
