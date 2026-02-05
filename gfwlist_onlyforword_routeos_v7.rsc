@@ -3841,6 +3841,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=padmanet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=page.link } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=page2rss.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=pages.dev } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=paimon.moe } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=palacemoon.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=paljorpublications.com } on-error={}
@@ -4381,6 +4382,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=seesmic.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=seevpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=seezone.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sef.org.tw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sehuatang.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sehuatang.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sejie.com } on-error={}
@@ -5730,6 +5732,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.eastturkistan.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.gmiddle.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.gmiddle.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.hoyolab.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.hustlercash.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.idlcoyote.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=www.imdb.com } on-error={}
