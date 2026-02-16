@@ -3226,6 +3226,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sowers.org.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=soylentnews.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=spaces.hightail.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=spacex.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=spankbang.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sparkpool.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=spatial.io } on-error={}
