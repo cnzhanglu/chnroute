@@ -1270,6 +1270,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freebeacon.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freebrowser.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freechinaweibo.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freedom.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freedomhouse.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freedominfonetweb.wordpress.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=freedomsherald.org } on-error={}
