@@ -3114,6 +3114,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shenzhoufilm.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shenzhouzhengdao.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shiksha.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shitjournal.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shixiao.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shizhao.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=shodanhq.com } on-error={}
