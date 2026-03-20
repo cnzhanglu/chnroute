@@ -2621,8 +2621,10 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ohmyrss.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ok.ru } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okayfreedom.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okcoin.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okex.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okk.tw } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=oklink.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okpool.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=okx.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=old.honeynet.org } on-error={}
