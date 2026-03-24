@@ -3028,6 +3028,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=rutracker.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=rxhj.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s-cute.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s.rmimg.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s.yimg.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-*.amazonaws.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=s3-ap-northeast-1.amazonaws.com } on-error={}
