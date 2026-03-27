@@ -4075,6 +4075,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--9pr62r24a.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--czq75pvv1aj5c.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--i2ru8q2qg.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--kcrv3utim32hx9f6qe.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--ngstr-lra8j.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--noss43i.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=xn--oiq.cc } on-error={}
