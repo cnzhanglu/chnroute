@@ -296,6 +296,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avg.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avgle.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avidemux.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avistaz.to } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avmo.pw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avmoo.pw } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=avoision.com } on-error={}
