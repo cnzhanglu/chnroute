@@ -3709,6 +3709,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=upmedia.mg } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=upornia.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uproxy.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=upsangel.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uptodown.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=uraban.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=urbandictionary.com } on-error={}
