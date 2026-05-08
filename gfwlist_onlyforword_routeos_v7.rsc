@@ -3709,6 +3709,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ultrasurf.us } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ultravpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ultravpn.fr } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=umap.openstreetmap.fr } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=unblock-us.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=unblock.cn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=unblockdmm.com } on-error={}
