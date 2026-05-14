@@ -745,6 +745,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chingcheong\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chinman\\.net\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chobit\\.cc\$" } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chonglangtv\\.org\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*chrdnet\\.com\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*christianfreedom\\.org\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*christianstudy\\.com\$" } on-error={}

@@ -745,6 +745,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=chingcheong.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=chinman.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=chobit.cc } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=chonglangtv.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=chrdnet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=christianfreedom.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=christianstudy.com } on-error={}
