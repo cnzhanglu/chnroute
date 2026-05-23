@@ -31,6 +31,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=2047.one } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=2049bbs.xyz } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=233abc.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=24hbook.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=24hrs.ca } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=32red.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=36rain.com } on-error={}
@@ -2313,6 +2314,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=martsangkagyuofficial.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=marxist.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=marxists.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mas.to } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mash.to } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mastodon.cloud } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mastodon.host } on-error={}
@@ -2521,6 +2523,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ndi.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nekoslovakia.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=neo-miracle.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=neodb.social  } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=neowin.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nephobox.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=netalert.me } on-error={}
