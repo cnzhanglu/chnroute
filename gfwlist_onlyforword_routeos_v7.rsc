@@ -1026,6 +1026,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=douchi.space } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dougscripts.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=doujincafe.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dowjones.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=download.dappcdn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dpool.top } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=dpp.org.tw } on-error={}
