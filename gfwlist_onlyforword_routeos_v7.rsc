@@ -330,6 +330,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bangdream.space } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bangkokpost.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bangumi.moe } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bangumi.tv } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bangyoulater.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bankmobilevibe.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bannedbook.org } on-error={}
@@ -385,6 +386,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=betvictor.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bfnn.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bfsh.hk } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bgm.tv } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bgme.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bgvpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=biblesforamerica.org } on-error={}
@@ -703,6 +705,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chenshan20042005.wordpress.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cherrysave.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chhongbi.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chii.in } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=china-mmm.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=china-review.com.ua } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=china-week.com } on-error={}
