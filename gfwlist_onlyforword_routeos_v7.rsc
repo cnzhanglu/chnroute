@@ -3187,6 +3187,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sinoca.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sinocast.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sinoinsider.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sinyalee.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sipml5.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sis001.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=site.new } on-error={}
