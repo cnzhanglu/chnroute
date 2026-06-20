@@ -16,6 +16,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=173ng.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=18board.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=18comic.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=18mh.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=1984bbs.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=1991way.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=1e100.net } on-error={}
@@ -404,6 +405,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bignews.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bigone.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bild.de } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=bilinovel.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=biliworld.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=binance.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=binance.org } on-error={}
