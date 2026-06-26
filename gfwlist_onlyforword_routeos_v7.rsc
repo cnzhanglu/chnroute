@@ -876,6 +876,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=crazyshit.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=crbug.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=crchina.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=creader.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=creaders.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=creativelab5.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cristyli.com } on-error={}
