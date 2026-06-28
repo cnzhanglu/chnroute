@@ -2447,6 +2447,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mgoon.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mgstage.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mh4u.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mhwindow.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=microvpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mihua.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mij.rip } on-error={}
