@@ -1172,6 +1172,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=expekt.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=exploader.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=express.co.uk } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=expressnews.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=expressvpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=exrates.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=extmatrix.com } on-error={}
