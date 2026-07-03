@@ -4035,6 +4035,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=webpkgcache.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=webrtc.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=websdr.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=webshare.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=website.new } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=webwarper.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wechatlawsuit.com } on-error={}
