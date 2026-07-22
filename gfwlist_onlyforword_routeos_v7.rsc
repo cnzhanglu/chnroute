@@ -4337,6 +4337,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zello.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zenmate.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zenmate.com.ru } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zenmux.ai } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zerohedge.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zeronet.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=zh-hans.cfsh99.com } on-error={}
