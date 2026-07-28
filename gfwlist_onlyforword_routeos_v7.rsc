@@ -3714,6 +3714,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=truebuddha-md.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=trustwallet.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=truthsocial.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tryai.dev } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tryheart.jp } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tsdr.uspto.gov } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=tt1069.com } on-error={}
