@@ -2325,6 +2325,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=livemint.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=livestream.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=livevideo.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=livingatlas.arcgis.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=livingstream.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=lmarena.ai } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=localbitcoins.com } on-error={}
