@@ -568,6 +568,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=breakgfw.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=breakingtweets.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=breakwall.net } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=briarproject.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=brill.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=brizzly.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=broadpressinc.com } on-error={}
@@ -710,6 +711,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chat.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chat.lmsys.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chatgpt.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chatgpt.site } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chatpdf.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chaturbate.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=checkgfw.com } on-error={}
