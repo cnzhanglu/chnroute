@@ -4166,6 +4166,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wp.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wplace.live } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wpoforum.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=write.as } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=writesonic.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wsj.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wsj.net } on-error={}
