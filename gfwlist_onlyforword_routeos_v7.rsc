@@ -2690,6 +2690,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nordstromrack.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nordvpn.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nos.nl } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=note.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=notepad-plus-plus.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=nottinghampost.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=now.com } on-error={}
