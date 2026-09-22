@@ -760,6 +760,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chinesegay.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chinesen.de } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chinesenews.net.au } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chineseposters.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chineseradioseattle.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chineseupress.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=chingcheong.com } on-error={}
