@@ -1404,6 +1404,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=futustatic.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fututrade.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fututrustee.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fuyin116.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fw.cm } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fxcm-chinese.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=fxnetworks.com } on-error={}
@@ -2563,6 +2564,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mubi.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=mullvad.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=multiply.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=muse.ai } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=music.amazon.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=musixmatch.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=muzi.com } on-error={}
@@ -4025,6 +4027,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wainao.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=walletconnect.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=walletconnect.org } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wallhaven.cc } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wallmama.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wallpapercasa.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=wallsttv.com } on-error={}
