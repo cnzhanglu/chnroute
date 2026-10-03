@@ -3283,6 +3283,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=simplex.chat } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sina.com.hk } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sinchew.com.my } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=sing-box.sagernet.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=singaporepools.com.sg } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=singlelogin.me } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=singlelogin.re } on-error={}

@@ -3283,6 +3283,7 @@
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*simplex\\.chat\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*sina\\.com\\.hk\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*sinchew\\.com\\.my\$" } on-error={}
+:do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*sing-box\\.sagernet\\.org\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*singaporepools\\.com\\.sg\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*singlelogin\\.me\$" } on-error={}
 :do { add forward-to=$dnsserver type=FWD address-list=gfw_list regexp=".*singlelogin\\.re\$" } on-error={}
