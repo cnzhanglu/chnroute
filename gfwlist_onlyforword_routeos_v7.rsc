@@ -865,6 +865,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=compileheart.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=connect.facebook.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=conoha.jp } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=console.typesafe.ai } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=contests.twilio.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=cool18.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=coolaler.com } on-error={}
@@ -1423,6 +1424,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=g.co } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=g0v.social } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=g6hentai.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=ga.jspm.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=gab.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=gabocorp.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=gagaoolala.com } on-error={}
