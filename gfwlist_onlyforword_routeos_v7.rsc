@@ -234,6 +234,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=api.recaptcha.net } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=api.shuaiapi.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=api.steampowered.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=api.themoviedb.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=apiary.io } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=apigee.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=apk.support } on-error={}
@@ -3758,6 +3759,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torproject.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrentgalaxy.to } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrentkitty.tv } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrentleech.org } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrentprivacy.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrentproject.se } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=torrenty.org } on-error={}
@@ -4389,6 +4391,7 @@
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youtubegaming.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youtubekids.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youversion.com } on-error={}
+:do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youversionapi.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youwin.com } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=youxu.info } on-error={}
 :do { add forward-to=$dnsserver type=FWD match-subdomain=yes name=yt.be } on-error={}
